@@ -1,0 +1,52 @@
+importar React de 'reaccionar';
+importar logo desde './logo.svg';
+importar './App.css';
+
+función App ()
+{
+  regreso (
+    <div className = "contenedor">
+   <h1 className = "título">
+      NOMBRE <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      PEDIDO <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      ETIQUETAS FABRICADAS <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      MERMA <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      FECHA DE INICIO DE FABRICACION <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      FECHA DE FIN DE FABRICACION <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      HORA DE INICIO DE FABRICACION <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      HORA DE FIN DE FABRICACION <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+
+   <formulario>
+<div align = "centro">
+  <input type = "button" value = "GUARDAR DATOS" name = "Back2" onclick = "history.back ()" />
+  </div>
+ </form>
+
+</div>
+        );
+}
+
+exportar la aplicación predeterminada;
