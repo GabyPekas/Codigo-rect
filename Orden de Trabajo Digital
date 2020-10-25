@@ -1,10 +1,3 @@
-importar React de 'reaccionar';
-importar logo desde './logo.svg';
-importar './App.css';
-
-función App ()
-{
-  regreso (
     <div className = "contenedor">
    <h1 className = "título">
       NOMBRE <span aria-label = "emoji"> </span>
@@ -43,10 +36,3 @@ función App ()
 <div align = "centro">
   <input type = "button" value = "GUARDAR DATOS" name = "Back2" onclick = "history.back ()" />
   </div>
- </form>
-
-</div>
-        );
-}
-
-exportar la aplicación predeterminada;
