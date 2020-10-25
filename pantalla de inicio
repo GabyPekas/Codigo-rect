@@ -1,0 +1,14 @@
+<div className = "contenedor">
+   <h1 className = "título">
+      NOMBRE DE USUARIO <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+   <h1 className = "título">
+      CONTRASEÑA <span aria-label = "emoji"> </span>
+   </h1>
+   <input type = "text" className = "nueva-tarea" />
+
+   <formulario>
+<div align = "centro">
+  <input type = "button" value = "INICIAR SESION" name = "Back2" onclick = "history.back ()" />
+  </div>
